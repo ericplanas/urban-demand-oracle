@@ -1,0 +1,31 @@
+# Claude Code
+.claude/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data (too large for git)
+data/raw/
+data/processed/
+
+# ML artifacts
+*.pkl
+*.joblib
+*.model
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
